@@ -156,3 +156,5 @@ instance/
 db.sqlite3
 db.sqlite3-journal
 nfs*
+
+!img/E-BSRD_fig1.png
