@@ -1,0 +1,158 @@
+# --------------------------------------------------
+# Project-specific artifacts
+# --------------------------------------------------
+BSRD/bsrd-202*
+BSRD/BSRD
+BSRD/logs/
+BSRD/output_imgs/
+BSRD/Trained_model/
+consistency_models/bsrd-202*
+consistency_models/codes_paper/
+consistency_models/logs/
+consistency_models/output_imgs_cm/
+consistency_models/Trained_model/
+burstormer/Trained_models/
+flash-attention/
+flash_attention_v028/
+wandb/
+BurstSR_dataset/
+latent-diffusion/
+stablediffusion/
+edm/
+models/
+logs/
+outputs/
+result/
+test/
+lr_rgb/
+openai-*/
+pwcnet/pwcnet-network-default.pth
+tmp.py
+out0.txt
+out1.txt
+
+# --------------------------------------------------
+# Model / dataset files
+# --------------------------------------------------
+*.pth
+*.pt
+*.ckpt
+**/*.pth
+**/*.pt
+**/*.ckpt
+*.npz
+*.csv
+*.json
+*.zip
+*.png
+*.jpg
+*.wandb
+
+# --------------------------------------------------
+# Python byte-code / compiled files
+# --------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.so
+cython_debug/
+
+# --------------------------------------------------
+# Build / distribution artifacts
+# --------------------------------------------------
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# --------------------------------------------------
+# Test / coverage outputs
+# --------------------------------------------------
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+cover/
+
+# --------------------------------------------------
+# Logs & installer temp
+# --------------------------------------------------
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --------------------------------------------------
+# Virtual / local environments
+# --------------------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+.pdm.toml
+.python-version   # pyenv
+
+# --------------------------------------------------
+# IPython / Jupyter
+# --------------------------------------------------
+profile_default/
+ipython_config.py
+.ipynb_checkpoints
+
+# --------------------------------------------------
+# Documentation
+# --------------------------------------------------
+docs/_build/
+site/
+
+# --------------------------------------------------
+# IDEs & tooling
+# --------------------------------------------------
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+.pybuilder/
+target/
+
+# --------------------------------------------------
+# OS-/platform-specific
+# --------------------------------------------------
+.DS_Store
+AppleDouble
+.LSOverride
+celerybeat-schedule
+celerybeat.pid
+instance/
+.webassets-cache
+.scrapy
+db.sqlite3
+db.sqlite3-journal
+nfs*
