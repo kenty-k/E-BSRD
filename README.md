@@ -1,12 +1,14 @@
-# E-BSRD(Efficient Burst Super-Resolution with One-step Diffusion)
-Welcome! This is the official repository of the paper ”Efficient Burst Super-Resolution with One-step Diffusion”
+# [E-BSRD(Efficient Burst Super-Resolution with One-step Diffusion)](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Kawai_Efficient_Burst_Super-Resolution_with_One-step_Diffusion_CVPRW_2025_paper.pdf)
+Welcome! This is the official repository of our paper:  
+**"Efficient Burst Super-Resolution with One-step Diffusion"**
 - Kento Kawai, Takeru Oba, Kyotaro Tokoro, Kazutoshi Akita, Norimichi Ukita
 - Toyota Technological Institute, Japan
+> 📢 **Accepted to the CVPR 2025 Workshop on NTIRE (New Trends in Image Restoration and Enhancement)**
 
 ![Top page](img/E-BSRD_fig1.png)
 
 ## 📄 Abstract
-While burst Low-Resolution (LR) images are useful for improving their Super Resolution (SR) image compared to a single LR image, prior burst SR methods are trained in a deterministic manner, which produces a blurry SR image. Since such blurry images are perceptually degraded, we aim to reconstruct sharp and high-fidelity SR images by a diffusion model. **Our method improves the efficiency of the diffusion model with a stochastic sampler with a high-order ODE as well as one-step diffusion using knowledge distillation.** Our experimental results demonstrate that our method can reduce the runtime to 1.6 % of its baseline while maintaining the SR quality measured based on image distortion and perceptual quality.
+While burst Low-Resolution (LR) images are useful for improving their Super Resolution (SR) image compared to a single LR image, prior burst SR methods are trained in a deterministic manner, which produces a blurry SR image. Since such blurry images are perceptually degraded, we aim to reconstruct sharp and high-fidelity SR images by a diffusion model. **Our method improves the efficiency of the diffusion model with a stochastic sampler with a high-order ODE as well as one-step diffusion using knowledge distillation.** Our experimental results demonstrate that **our method can reduce the runtime to 1.6 % of its baseline** while maintaining the SR quality measured based on image distortion and perceptual quality.
 
 
 ## 🛠️ Installation
@@ -48,6 +50,7 @@ While burst Low-Resolution (LR) images are useful for improving their Super Reso
    ~~~
    <details>
    <summary><strong>Command-line options (click to expand)</strong></summary>
+
    - **`--steps`**   
    Total number of diffusion steps (40 in the paper).
 
